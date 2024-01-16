@@ -6,4 +6,4 @@ let currentWeapon = 0;
 let fighting;
 let monsterHealth;
 
-let inventory;
+let inventory = "stick";
