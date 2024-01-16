@@ -6,4 +6,8 @@ let currentWeapon = 0;
 let fighting;
 let monsterHealth;
 
-let inventory = "stick";
+let inventory = [
+    "stick",
+    "dagger",
+    "sword",
+];
