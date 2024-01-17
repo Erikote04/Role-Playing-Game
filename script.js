@@ -23,7 +23,8 @@ const monsterHealthText = document.querySelector("#monsterHealth");
 
 const locations = [
     {
-        name: "town square"
+        name: "town square",
+        "button text": []
     }
 ];
 
