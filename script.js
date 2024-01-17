@@ -100,6 +100,9 @@ function fightDragon() {
 }
 
 function buyHealth() {
+    if ("condition") {
+    
+    }
     gold -= 10;
     health += 10;
     goldText.innerText = gold;
