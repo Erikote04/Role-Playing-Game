@@ -33,7 +33,8 @@ const locations = [
             goStore,
             goCave,
             fightDragon
-        ]
+        ],
+        text: "You are in the town square. You see a sign that says \"Store\"."
     }
 ];
 
