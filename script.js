@@ -74,7 +74,7 @@ function goTown() {
 }
 
 function goStore() {
-
+    update(locations[1]);
 }
 
 function goCave() {
