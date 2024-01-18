@@ -125,7 +125,7 @@ const locations = [
         "button functions": [
             goTown,
             goTown,
-            goTown
+            easterEgg
         ],
         text: 'The monster screams "Arg!" as it dies. You gain experience points and find gold.'
     },
