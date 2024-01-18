@@ -341,7 +341,7 @@ function easterEgg() {
 }
 
 function pick(guess) {
-    
+    const numbers = [];
 }
 
 function pickTwo() {
