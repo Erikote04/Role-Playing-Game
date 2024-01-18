@@ -173,7 +173,6 @@ const locations = [
     },
 ];
 
-// initialize buttons
 button1.onclick = goStore;
 button2.onclick = goCave;
 button3.onclick = fightDragon;
@@ -274,18 +273,22 @@ function attack() {
     text.innerText = "The " + monsters[fighting].name + " attacks";
     text.innerText += " You attack it with your " + weapons[currentWeapon].name;
     health -= getMonsterAttackValue(monsters[fighting].level);
+
     if (isMonsterHit()) {
         monsterHealth -= weapons[currentWeapon].power + Math.floor(Math.random() * xp) + 1;
     } else {
         text.innerText += " You miss.";
     }
+
     healthText.innerText = health;
     monsterHealthText.innerText = monsterHealth;
+
     if (health <= 0) {
         lose();
     } else if (monsterHealth <= 0) {
         fighting === 2 ? winGame() : defeatMonster();
     }
+
     if (Math.random() <= .1 && inventory.length !== 1) {
         text.innerText += " Your " + inventory.pop() + " breaks";
         currentWeapon--;
@@ -294,7 +297,6 @@ function attack() {
 
 function getMonsterAttackValue(level) {
     const hit = (level * 5) - (Math.floor(Math.random() * xp));
-    console.log(hit);
     return hit > 0? hit : 0;
 }
 
@@ -309,8 +311,10 @@ function dodge() {
 function defeatMonster() {
     gold += Math.floor(monsters[fighting].level * 6.7);
     xp += monsters[fighting].level;
+
     goldText.innerText = gold;
     xpText.innerText = xp;
+
     update(locations[4]);
 }
 
@@ -342,13 +346,17 @@ function easterEgg() {
 
 function pick(guess) {
     const numbers = [];
+
     while (numbers.length < 10) {
         numbers.push(Math.floor(Math.random() * 11));
     }
+
     text.innerText = "You picked " + guess + ". Here are the random numbers:\n"
+
     for (let i = 0; i < numbers.length; i++) {
         text.innerText += numbers[i] + "\n";
     }
+    
     if (numbers.includes(guess)) {
         text.innerText += "Right! You win 20 gold!";
         gold += 20;
