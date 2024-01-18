@@ -101,6 +101,20 @@ const locations = [
         ],
         text: "You enter the cave. You see some monsters."
     },
+    {
+        name: "fight",
+        "button text": [
+            "Attack", 
+            "Dodge",
+            "Run"
+        ],
+        "button functions": [
+            attack,
+            dodge,
+            goTown
+        ],
+        text: "You are fighting a monster."
+    },
 ];
 
 // initialize buttons
@@ -199,5 +213,5 @@ function attack() {
 }
 
 function dodge() {
-    
+
 }
