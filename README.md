@@ -2,6 +2,11 @@
 
 Welcome to Dragon Repeller, a simple text-based RPG where you embark on a quest to defeat the dragon that threatens the town. This guide provides an overview of the game's logic and instructions on how to play.
 
+<img width="540" alt="town" src="https://github.com/Erikote04/Role-Playing-Game/assets/126704751/2bf4b6b8-6cad-451d-9959-a64d02e391ab">
+<img width="540" alt="store" src="https://github.com/Erikote04/Role-Playing-Game/assets/126704751/44e35c3b-ab1a-455a-92d8-7bb6ebafdd51">
+<img width="540" alt="cave" src="https://github.com/Erikote04/Role-Playing-Game/assets/126704751/b67fe94e-56e2-4e19-b00f-c699ce4c6acf">
+<img width="540" alt="dragon" src="https://github.com/Erikote04/Role-Playing-Game/assets/126704751/49cf601b-1840-4ade-8417-b9c396576ee5">
+
 ## Game Overview
 
 Dragon Repeller consists of a town square where you, the player, make decisions by choosing actions through buttons. The main game elements include:
